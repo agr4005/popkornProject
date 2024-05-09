@@ -1,0 +1,135 @@
+.notices_warp {
+    width: 300px;
+    height: 556px;
+}
+
+.notices_header {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FE7CF3;
+    border-bottom: 1px solid #7de4ff;
+}
+
+.notices_title {
+    color: #7de4ff;
+}
+
+/* content 출력 창 */
+.notices_body {
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 380px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+
+.message_flex {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+
+.my_message {
+    background-color: #fe7cf398;
+    border-radius: 10px;
+
+    max-width: 200px;
+    min-width: 50px;
+    height: auto;
+    padding: 5px;
+
+    margin-right: 5px;
+
+    color: white;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.message_flex_others{
+    margin-left: 10px;
+}
+
+.others_message_wrap{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.others_message {
+    background-color: #7de5ff7b;
+    border-radius: 10px;
+
+    max-width: 200px;
+    min-width: 50px;
+    height: auto;
+    padding: 5px;
+
+    margin: 2px 0;
+
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.mesaage_id {
+    color: white;
+    font-size: 10px;
+}
+
+.message_date {
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+/* content 입력 창 */
+.notices_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7de4ff;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.notices_content {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    width: 290px;
+    height: 40px;
+    overflow-y: auto;
+    resize: none;
+}
+
+.content_button {
+    background-color: #7de4ff;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 230px;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.notice_notadmin_div{
+    color: #fff;
+    font-weight: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

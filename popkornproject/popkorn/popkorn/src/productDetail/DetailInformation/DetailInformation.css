@@ -1,0 +1,61 @@
+.minimg {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    /* 부모 요소에 position: relative 추가 */
+}
+
+
+.minimg>button {
+    position: absolute;
+    /* 버튼에 position: absolute 추가 */
+    top: 50%;
+    /* 부모 요소 중앙 정렬을 위한 조정 */
+    transform: translateY(-50%);
+    /* 버튼을 수직으로 중앙 정렬 */
+    margin-right: -65px;
+    /* 버튼 가로 중앙 정렬을 위한 조정 */
+    z-index: 2;
+
+}
+
+.minimg .nextimg>button {
+    position: absolute;
+    /* 버튼에 position: absolute 추가 */
+    top: 50%;
+    /* 부모 요소 중앙 정렬을 위한 조정 */
+    transform: translateY(-50%);
+    /* 버튼을 수직으로 중앙 정렬 */
+    margin-left: -30px;
+    z-index: 2;
+    width: 25px;
+}
+
+.minimg1 {
+    width: 130px;
+    height: 130px;
+}
+
+.previousnext {
+    border-radius: 50%;
+    background-color: rgb(156, 153, 153);
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    margin-left: -17px;
+    opacity: 0.4;
+}
+
+.titletype {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.recommen {
+    padding-top: 30px;
+}

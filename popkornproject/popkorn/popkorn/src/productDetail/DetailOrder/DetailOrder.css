@@ -1,0 +1,73 @@
+.mainTitle {
+    width: 420px;
+    color: rgb(77, 76, 76);
+    margin-left: 25px;
+    padding-top: 65px;
+}
+
+#optionselect>option:nth-child(1) {
+    display: none;
+}
+
+.mainButton {
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    background-color: rgb(237, 237, 237);
+    padding-left: 5px;
+    height: 70px;
+    align-items: center;
+}
+
+.maintwoButton {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.mainButton>h6 {
+    margin-right: 45px;
+    font-size: 14px;
+}
+
+.mainButton1 {
+    border-radius: 80%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid rgb(213, 211, 211);
+    background-color: white;
+    align-self: center;
+}
+
+
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singerwon {
+    border-bottom: solid 1px rgb(213, 211, 211);
+}
+
+#optionselect {
+    border: none;
+    width: 420px;
+    height: 10px;
+    font-size: 15px;
+    color: rgb(77, 76, 76);
+    border-top: solid 1px rgb(213, 211, 211);
+    border-bottom: solid 1px rgb(213, 211, 211);
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.deletButton {
+    border: none;
+    background-color: rgb(237, 237, 237);
+    padding-left: 170px;
+    cursor: pointer;
+    padding-bottom: 42px;
+    font-size: 20px;
+}

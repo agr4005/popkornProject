@@ -1,0 +1,361 @@
+.inquirywhole {
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  display: flex;
+  justify-content: center;
+}
+
+.inquiryordercontainer {
+  border: 2px solid rgba(214, 212, 212, 0.5);
+  border-radius: 15px;
+  margin-top: 5%;
+  width: 90%;
+  height: 300px;
+  padding: 2%;
+
+}
+
+.orderdetailscontainer::-webkit-scrollbar {
+  width: 12px;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:start:decrement,
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:start:increment {
+  display: block;
+  height: 10px;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:end:decrement {
+  display: block;
+  width: 10px;
+}
+
+.orderdetailscontainer {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 2%;
+  max-height: 80%;
+  overflow-y: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 300px;
+  max-width: 800px;
+  height: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.inquiryorder1st {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.inquirydate {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.inquirydetailcheck {
+  width: 12%;
+  height: 3%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.inquirydetailnumber {
+  font-family: 'TmoneyRoundWindExtraBold';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inquirydetailcheck:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+  color: #555;
+  transform: scale(1.05);
+}
+
+.inquirynumber {
+  font-family: 'TmoneyRoundWindExtraBold';
+  width: 50%;
+  min-width: 150px;
+  max-width: 300px;
+  text-align: right;
+}
+
+.inquiryorder2nd {
+  height: auto;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+
+.inquiryorderimg img {
+  width: 100%;
+  height: auto;
+}
+
+.orderdetailproductinfo {
+  width: 100%;
+  min-width: 200px;
+  max-width: 600px;
+  padding-left: 1%;
+  margin-top: 3%;
+}
+
+.inquirymapvalue {
+  margin-left: 5%;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.inquiryorderdetailinfo {
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+  max-width: 600px;
+  border: 1px solid #888;
+  ;
+  border-radius: 2vw;
+  padding: 3%;
+}
+
+.inquiryorder3rd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orderdetailreturnrequest {
+  border: 1px gray solid;
+  border-radius: 15px;
+  background-color: white;
+  width: 16%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+.orderdetailservice {
+  border: 1px gray solid;
+  border-radius: 15px;
+  background-color: white;
+  width: 16%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+.inquirypopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.termsheader {
+  font-size: 3vw;
+}
+
+.inquiryorderimg {
+  width: 15%;
+  height: 10%;
+}
+
+.inquirypname,
+.inquiryalternative,
+.inquirycount {
+  width: 100%;
+}
+
+.inquiryalternative {
+  font-size: 0.8vw;
+  color: #888;
+  margin: 3%;
+}
+
+.inquirytotalprice {
+  text-align: right;
+  font-size: 130%;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.inquiryorderbtn {
+  font-family: 'TmoneyRoundWindExtraBold';
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.inquiryrefundbtn,
+.inquiryinquirement {
+  width: 120px;
+  border: 0px;
+  border-radius: 2vw;
+  height: 3vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  word-break: keep-all;
+}
+
+.inputemail,
+.inputcertification, .inputordernum {
+  font-family: 'TmoneyRoundWindExtraBold';
+  padding-left: 0px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  border: 0px;
+  border-bottom: 2px solid;
+  border-color: gray;
+  font-size: 20px;
+  outline: none;
+  width: 300px;
+}
+
+.inputemail:focus , .inputordernum:focus{
+  border-image: linear-gradient(20deg, #fe7cf3, #7de4ff);
+  border-image-slice: 1;
+}
+
+.inputemail::placeholder, .inputordernum::placeholder {
+  color: #fe7cf3;
+}
+
+.mailcodesend>i {
+  margin-left: -40px;
+}
+
+.existedemail {
+  font-family: 'TmoneyRoundWindExtraBold';
+  font-size: 18px;
+  color: #fe7cf3;
+}
+
+.order-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inquirypopup-close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  color: black;
+}
+
+.order-details-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.orderpopup-overlay {
+  font-family: 'TmoneyRoundWindExtraBold';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordernumberlist {
+  font-family: 'TmoneyRoundWindExtraBold';
+  width: 500px;
+  display: flex;
+  padding: 20px;
+  height: 30px;
+  border: 1px solid rgba(214, 212, 212, 0.5);
+  ;
+  border-radius: 25px;
+  margin: 50px auto;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.inquiryorderdetailstn {
+  width: 30%;
+  height: 30px;
+  padding-top: 5px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.inquiryorderdetailstn:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+  color: #555;
+  transform: scale(1.05);
+}
+.inquiryorderspan {
+  color:#fe7cf3;
+}

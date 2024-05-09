@@ -1,0 +1,13 @@
+.bodyimg {
+    width: 950px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.barmenu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 1px ridge rgb(213, 211, 211);
+    border-bottom: 1px ridge rgb(213, 211, 211);
+}

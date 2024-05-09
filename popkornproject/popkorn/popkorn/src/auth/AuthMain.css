@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.emailwhole {
+    margin-top: 100px;
+}
+
+.Memberbg {
+    width: 600px;
+    padding-top: 32px;
+    padding-bottom: 120px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 50px -20px #000808;
+    border-radius: 20px;
+}
+
+.emailbg {
+    margin-top: 80px;
+}
+
+.memberguide {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding: 10px;
+    margin: 0px;
+    font-size: 32px;
+   color:#7de4ff;
+}
+
+.memberalert, .joinalert {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding: 10px;
+    margin: 0px;
+   color:#fe7cf3;
+}
+
+.emaildetail,
+.memberinput {
+    padding-left: 30px;
+    margin: 0 auto;
+    height: 70px;
+    font-family: 'TmoneyRoundWindExtraBold';
+}
+
+.emailinput::placeholder {
+    color: #fe7cf3;
+}
+
+.pwinput::placeholder {
+    color: #fe7cf3;
+}
+.emaildetail, .pwdetail {
+    margin-right: 50px;
+}
+
+.pwdetail {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 30px;
+    padding-left: 30px;
+    height: 70px;
+}
+
+.embtn {
+    font-family: 'TmoneyRoundWindExtraBold';
+    /* text-align: center; */
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+}
+
+.resetpw {
+    font-family: 'TmoneyRoundWindExtraBold';
+    border: none;
+    background-color: white;
+    color: #7de4ff;
+    margin-top: 40px;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.emailinput,
+.pwinput {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border: 0px;
+    border-bottom: 2px solid;
+    border-color: gray;
+    font-size: 20px;
+    outline: none;
+    width: 300px;
+    margin-right: -30px;
+}
+.pwinput {
+    margin-left: 35px;
+}
+
+.emailinput:focus,
+.pwinput:focus {
+    border-image: linear-gradient(20deg, #fe7cf3, #7de4ff);
+    border-image-slice: 1;
+}
+
+.emailinfo {
+    font-family: 'TmoneyRoundWindExtraBold';
+    width: 380px;
+    color: #fe7cf3;
+}
+
+.pwinfo {
+    font-family: 'TmoneyRoundWindExtraBold';
+    width: 380px;
+    color: #fe7cf3;
+}
+
+.memberreset {
+    border: 0;
+    background-color: white;
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggleshow {
+    border: 0;
+    background-color: white;
+    font-size: 17px;
+    padding-right: -50px;
+    color: #fe7cf3;
+    
+}
+
+.xi-eye-off:before {
+    color: #7de4ff;
+}
+
+.xi-lock {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.slide-animation-example {
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateX(100%);
+    display: none;
+  }
+  
+  .slide-animation-example.visible {
+    opacity: 1;
+    transform: translateX(0);
+    display: block;
+  }

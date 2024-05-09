@@ -1,0 +1,29 @@
+.orderproductbox {
+    border-top: 2px solid rgb(34, 33, 33);
+    /* border-bottom: 2px solid rgb(34, 33, 33); */
+    padding-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
+.oderproductbox_table{
+    width: 90%;
+}
+
+.orderbox_th{
+    /* border-bottom: 1px solid #000; */
+}
+
+.orderbox_tb{
+    text-align: center;
+}
+
+.orderbox_tb img{
+    width: 70px;
+}
+
+.orderproductPrice {
+    width: 200px;
+    float: right;
+}
+

@@ -1,0 +1,369 @@
+.header_wrap.fade-out {
+   pointer-events: painted;
+}
+
+.header_wrap {
+   display: inline-flex;
+   position: fixed;
+   justify-content: space-around;
+   text-align: center;
+   align-items: baseline;
+   width: 100%;
+   height: 120px;
+   padding-top: 32px;
+   z-index: 999;
+   top: 0;
+   transition: all 0.6s ease-in-out;
+}
+
+.dimmer {
+   position: fixed;
+   width: 100%;
+   height: 120px;
+   top: 0;
+   opacity: 0.8;
+   padding-top: 32px;
+   background-color: white;
+   cursor: auto;
+   transition: all 0.5s ease-in-out;
+}
+
+.dimmer.fade-out {
+   opacity: 0;
+}
+
+/* /////////////////////////////////// logo_wrap /////////////////////////////////////////////// */
+.logo_wrap {
+   height: 100px;
+   display: flex;
+   align-items: baseline;
+   justify-content: center;
+}
+
+.logo_main {
+   display: inline-block;
+   animation: App-logo-spin infinite 2s linear;
+   width: 4em;
+   transition: all 0.5 ease-in-out;
+   cursor: pointer;
+   position: relative;
+   z-index: 999;
+   pointer-events: painted;
+}
+
+@keyframes App-logo-spin {
+   0% {
+      transform: rotate(7deg);
+   }
+
+   50% {
+      transform: rotate(-7deg);
+   }
+
+   100% {
+      transform: rotate(7deg);
+   }
+}
+
+.logo_scroll {
+   animation: App-logo-spin infinite 2s linear;
+   position: fixed;
+   width: 4em;
+   left: calc(50%-32px);
+   transition: all 0.5 ease-in-out;
+}
+
+.logo_imgs1 .logo_imgs2 {
+   transition: all 2s ease-out;
+}
+
+.logo_imgs1.fade-out {
+   animation: moveRight 0.4s linear forwards;
+}
+
+.logo_imgs2.fade-out {
+   animation: moveLeft 0.4s linear forwards;
+}
+
+.logo_main.fade-out {
+   cursor: pointer;
+   visibility: visible;
+   opacity: 1;
+   position: relative;
+   animation: App-logo-spin infinite 2s linear;
+   z-index: 999;
+}
+
+.logo_a {
+   display: inline-block;
+}
+
+.logo_wrap img {
+   padding: 0 1.5px;
+}
+
+/* /////////////////////////////////// menu_wrap /////////////////////////////////////////////// */
+
+.menu_wrap {
+   font-family: 'TmoneyRoundWindExtraBold';
+   font-size: 20px;
+   width: 20%;
+   display: flex;
+   justify-content: space-between;
+   transition: all 0.4s ease-in-out;
+}
+
+.menuli{
+   color: #7de3ff;
+   text-align: center;
+   z-index: 999;
+   padding: 0 10px;
+}
+
+.menu_wrap>a>span{
+   cursor: pointer;
+}
+
+.menuli {
+   display: inline-block;
+   cursor: pointer;
+}
+
+
+.menu_wrap.fade-out {
+   animation: moveRight 0.4s linear forwards;
+   visibility: hidden;
+}
+
+/* /////////////////////////////////// icons_wrap /////////////////////////////////////////////// */
+
+.icons_wrap {
+   display: flex;
+   justify-content: space-between;
+   width: 20%;
+   font-size: 30px;
+   transition: all 0.4s ease-in-out;
+}
+
+.icons_wrap i{
+   color: #7de3ff;
+   z-index: 999;
+}
+
+.icons_wrap.fade-out {
+   animation: moveLeft 0.4s linear forwards;
+   visibility: hidden;
+}
+
+.icons_wrap.fade-out2 {
+   animation: moveRight 0.4s linear forwards;
+   visibility: hidden;
+}
+
+.dimmer.fade-out {
+   opacity: 0;
+   visibility: hidden;
+   pointer-events: none;
+}
+
+.header_wrap.fade-out{
+   pointer-events: none;
+}
+
+
+@media (max-width: 1150px) {
+   .icons_wrap {
+      animation: moveDown 0.4s linear forwards;
+      z-index: 999;
+   }
+
+   .menu_wrap {
+      animation: moveDown 0.4s linear forwards;
+      z-index: 999;
+   }
+
+
+   .logo_wrap {
+      margin: 0 auto;
+      transition: all 0.4s ease-in-out;
+      z-index: 999;
+      animation: logoMain 0.6s linear forwards;
+   }
+
+   .icons_wrap {
+      order: 3;
+      margin: 40px auto;
+      z-index: 999;
+   }
+
+   .menu_wrap {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+      margin: 0px auto;
+      z-index: 999;
+   }
+
+   .menuli {
+      padding: 20px;
+   }
+
+   .dimmer {
+      top: 0;
+      width: 100%;
+      height: 450px;
+      cursor: auto;
+      transition: all 0.4s ease-in-out;
+      
+   }
+
+   .header_wrap {
+      text-align: center;
+      height: auto;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .menu_wrap.fade-out {
+      animation: moveUp 0.4s linear forwards;
+      visibility: hidden;
+      pointer-events: none;
+   }
+
+   .icons_wrap.fade-out {
+      animation: moveUp2 0.4s linear forwards;
+      visibility: hidden;
+      pointer-events: none;
+   }
+
+   .dimmer.fade-out {
+      transform: translateY(-100%);
+      transition: all 0.6s ease-in-out;
+      pointer-events: none;
+   }
+   .logo_wrap .logo_wrap.fade-out{
+      animation: logoMain 0.6s linear forwards;
+   }
+}
+
+@media (min-width: 1150px) {
+   .logo_wrap {
+      animation: logoMain 0.6s linear forwards;
+   }
+
+   .icons_wrap {
+      animation: moveRight2 0.4s linear forwards;
+      z-index: 999;
+   }
+
+   .menu_wrap {
+      animation: moveLeft2 0.4s linear forwards;
+      z-index: 999;
+   }
+}
+
+@media (max-width: 800px) {
+   .logo_imgs1 {
+      align-items: baseline;
+      animation: moveRight 0.4s linear forwards;
+   }
+
+   .logo_imgs2 {
+      align-items: baseline;
+      animation: moveLeft 0.4s linear forwards;
+   }
+}
+
+@media (min-width: 800px) {
+   .logo_imgs1 {
+      align-items: baseline;
+      animation: moveLeft2 0.4s linear forwards;
+   }
+
+   .logo_imgs2 {
+      align-items: baseline;
+      animation: moveRight2 0.4s linear forwards;
+   }
+
+}
+
+@keyframes moveRight {
+   0% {
+      opacity: 1;
+   }
+
+   100% {
+      transform: translateX(150%);
+      opacity: 0;
+   }
+}
+
+@keyframes moveRight2 {
+   0% {
+      transform: translateX(-150%);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateX(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes moveLeft {
+   0% {
+      opacity: 1;
+   }
+
+   100% {
+      transform: translateX(-150%);
+      opacity: 0;
+   }
+}
+
+@keyframes moveLeft2 {
+   0% {
+      transform: translateX(150%);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateX(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes moveDown {
+   0% {
+      transform: translateY(-100%);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+}
+
+@keyframes moveUp {
+   0% {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+   
+   100% {
+      opacity: 0;
+      transform: translateY(-100%);
+   }
+}
+@keyframes moveUp2 {
+   0% {
+      transform: translateY(0%);
+      opacity: 1;
+   }
+   
+   100% {
+      opacity: 0;
+      transform: translateY(-500%);
+   }
+}

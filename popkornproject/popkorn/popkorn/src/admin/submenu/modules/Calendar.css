@@ -1,0 +1,124 @@
+.calendar {
+    padding: 0px 10px 10px;
+    width: 500px;
+}
+
+.calendar_header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7de4ff;
+}
+
+.yearTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FE7CF3;
+}
+
+.monthTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.month {
+    font-size: 2.0rem;
+    line-height: 1;
+    margin: 0 20px;
+    color: #7de4ff;
+    font-weight: bold;
+}
+
+.prevButton,
+.nextButton {
+    all: unset;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: white;
+}
+
+.dayContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+
+    div {
+        text-align: center;
+        color: white;
+        border: 1px solid white;
+        font-weight: bold;
+        height: 20px;
+        border-radius: 10px;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.dateContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+
+    >div {
+        border: 1px solid white;
+        height: 80px;
+        color: white;
+
+        .topLine {
+            display: flex;
+            gap: 5px;
+            padding: 0 3px;
+            align-items: center;
+
+            .today {
+                font-size: 0.9rem;
+                color: rgb(20, 220, 37);
+            }
+        }
+    }
+
+    .currentMonth {
+        font-weight: bold;
+
+    }
+
+    .diffMonth {
+        color: black;
+    }
+}
+
+#attendanceid{
+    font-size: 10px;
+    margin: 0;
+}
+
+#attendanceid.attendance{
+    color: rgb(13, 231, 13);
+}
+
+#attendanceid.late{
+    color: rgb(247, 180, 34);
+}
+
+#attendanceid.absence{
+    color: crimson;
+}
+
+.bottomLine{
+    white-space: pre-wrap; /* 텍스트가 넘칠 때 개행되도록 설정 */
+    line-height: 0.7;
+}

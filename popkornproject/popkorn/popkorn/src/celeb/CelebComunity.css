@@ -1,0 +1,190 @@
+.celeb_comunity_wrap{
+   width: 100%;
+   height: 100%;
+   margin-top: 240px;
+}
+
+.celeb_feed_wrap{
+   width: 600px;
+   height: 1000px;
+   margin: 0 auto 100px;
+   border-radius: 100px;
+   position: relative;
+   border: 3px solid #7de3ff;
+}
+
+.celeb_feed_logo{
+   z-index: 2;
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   left: -90px;
+   top: -60px;
+   box-shadow: 2px 2px 5px grey;
+}
+
+.celeb_feed_totallikey{
+   position: absolute;
+   top: -50px;
+   left: 125px;
+   font-size: 30px;
+   color: #FE7CF3;
+}
+
+.celeb_feed_totallikey_cnt{
+   position: absolute;
+   right: 120px;
+   color: #7de3ff;
+   top: -50px;
+   font-size: 30px;
+}
+
+.celeb_feed_container{
+   top: 0;
+   border-radius: 98px;
+   overflow: hidden;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+}
+
+.celeb_feed_notice{
+   z-index: 1;
+   position: absolute;
+   width: 100%;
+   height: 100px;
+   background-color: #7de3ff;
+}
+
+.celeb_feed_notice_div{
+   width: 90%;
+}
+
+.celeb_feed_notice span{
+   display: inline-block;
+   margin-top: 10px;
+   margin-left: 150px;
+   color: #FFF;
+   font-size: 28px;
+}
+
+.celeb_feed_content{
+   width: 100%;
+   height: 730px;
+   margin-top: 100px;
+}
+
+.celeb_feed_input_wrap{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 140px; 
+   background-color: #ffe4fd;
+   /* border-top-right-radius: 40px;
+   border-top-left-radius: 40px; */
+}
+
+.celeb_feeds_div{
+   max-width: 60%;
+   position: relative;
+   background: #fff;
+   border-radius: 40px;
+   margin-bottom: 30px;
+}
+
+.celeb_feeds_wrap{
+   height: 100%;
+   padding-top: 30px;
+   background-image: linear-gradient(to bottom, #ebfbff, #ffe4fd);
+   overflow: auto;
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column-reverse;
+   overflow-x: hidden;
+   padding: 20px;
+}
+
+.celeb_feeds_id{
+   display: inline-block;
+   position: absolute;
+   font-weight: bold;
+   top: -10px;
+   left: 20px;
+}
+
+.celeb_feeds_contents{
+   display: inline-block;
+   margin: 20px 30px;
+   width: 90%;
+}
+
+.celeb_feeds_time{
+   position: absolute;
+   bottom: -16px;
+   right: 20px;
+   font-size: 10px;
+}
+
+.celeb_feed_input_wrap{
+   display: flex;
+   justify-content: center;
+}
+
+.celeb_feed_input_wrap>div{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   background: #ffe4fd;
+   border-radius: 100px;
+}
+
+.celeb_feed_textarea{
+   float: left;
+   padding: 20px;
+   border: none;
+   /* border: 1px solid #FE7CF3; */
+   width: 70%;
+   resize: none;
+   border-radius: 77px;
+   font-size: 16px;
+   height: 20px;
+}
+
+.celeb_feed_textarea:focus{
+   outline: none;
+   border: 1px solid #FE7CF3;
+}
+
+.celeb_feed_btn{
+   width: 60px;
+   height: 50px;
+   border: none;
+   background: #ffa8f9;
+   color: #FFF;
+   font-family: 'Noto Sans KR', sans-serif;
+   cursor: pointer;
+   border-radius: 40px;
+   border: 2px solid #fff;
+}
+
+.celeb_feeds_wrap > .celeb_feeds_div:not(.user_feed) {
+   align-self: flex-start;
+}
+
+.celeb_feeds_wrap::-webkit-scrollbar {
+   width: 4px;  /* 스크롤바의 너비 */
+}
+
+.celeb_feeds_wrap::-webkit-scrollbar-thumb {
+   height: 5%; /* 스크롤바의 길이 */
+   background: #FE7CF3; /* 스크롤바의 색상 */
+   border-radius:50px;
+}
+
+.celeb_feeds_wrap::-webkit-scrollbar-track {
+   background: rgba(243, 247, 253, 0.37);  /*스크롤바 뒷 배경 색상*/
+}

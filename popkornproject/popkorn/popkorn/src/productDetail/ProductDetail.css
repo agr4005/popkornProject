@@ -1,0 +1,14 @@
+.orderMain {
+    display: flex;
+    margin-top: 130px;
+    padding-left: 20px;
+    height: 750px;
+}
+
+.productDetailMain {
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 50px;
+    /* padding-bottom: 50px; => 추후 삭제 예정  */
+}
+

@@ -1,0 +1,19 @@
+.refund_wrap{
+    margin: 0 auto;
+    max-width: 1320px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.xi-document{
+    font-size: 50px;
+    color: #fe7cf3;
+}
+
+.refund_wrap h4{
+    color: #fe7cf3;
+}
+
+.refund_wrap h4>span{
+    color: #000;
+}

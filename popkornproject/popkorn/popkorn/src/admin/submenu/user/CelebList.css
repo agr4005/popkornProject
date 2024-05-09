@@ -1,0 +1,260 @@
+.celebList_wrap {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    color: white;
+    position: relative;
+}
+
+.celeb_infolist_wrap {
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 1px 0px 0px;
+    background: rgba(148, 147, 147, 0.53);
+
+    color: white;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.celeb_infolist_table_wrap {
+    width: 90%;
+    max-height: 750px;
+    margin: 10px auto;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.celeb_infolist_table_wrap::-webkit-scrollbar,.celebList_wrap::-webkit-scrollbar {
+    width: 6px;
+    /* 스크롤바의 너비 */
+    height: 10px;
+ }
+ 
+ .celeb_infolist_table_wrap::-webkit-scrollbar-thumb,.celebList_wrap::-webkit-scrollbar-thumb {
+    height: 10%;
+    /* 스크롤바의 길이 */
+    background: gainsboro;
+    /* 스크롤바의 색상 */
+    border-radius: 80px;
+ }
+ 
+ .celeb_infolist_table_wrap::-webkit-scrollbar-track,.celebList_wrap::-webkit-scrollbar-track {
+    background: rgba(243, 247, 253, 0.37);
+    /*스크롤바 뒷 배경 색상*/
+    /* height: 90%; */
+    margin-top: 45px;
+ }
+ 
+
+.celeb_insertBtn_plus {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.celeb_insertBtn_plus>p{
+    cursor: pointer;
+}
+
+.celeb_insertBtn_plus p {
+    border: 0px;
+    border-radius: 6px;
+
+    background: #4faeb4e3;
+    width: 90px;
+    height: 31px;
+    color: #fff;
+    text-align: center;
+}
+
+.celeb_infolist_table {
+    background: #94939385;
+    border-collapse: collapse;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.celeb_infolist_table th:first-child {
+    text-align: center;
+}
+
+.celeb_infolist_table th,
+.celeb_infolist_table td {
+    padding: 10px;
+    border-bottom: 1px solid #a19898;
+    border-width: 90%;
+    max-width: 200px;
+
+    text-overflow: ellipsis;
+}
+
+.celeb_checkbox_container {
+    text-align: center;
+}
+
+
+.celeb_infolist_table th {
+    background: cadetblue;
+    z-index: 9;
+    align-items: baseline;
+    color: gainsboro;
+    text-align: left;
+    min-width: 50px;
+
+}
+
+.celeb_infolist_table td {
+    font-size: 16px;
+    color: #fff;
+}
+
+.celebList_header {
+    background: rgba(148, 147, 147, 0.53);
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    margin: 10px 10px 0px;
+    padding: 1px 0px 0px;
+    color: gainsboro;
+    font-size: 30px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.celebList_header span {
+    margin-left: 70px;
+}
+
+.celebList_container {
+    visibility: hidden;
+
+    background: rgba(148, 147, 147, 0.53);
+    border: 1px solid #b6b6b6;
+}
+
+.celebList_container.active {
+    visibility: visible;
+
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    margin: 0px 10px 10px;
+    padding: 1px 0px 0px;
+    background: rgba(148, 147, 147, 0.53);
+
+    color: white;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.celeblist_image_input {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.celeblist_imagelist {
+    margin: 10px;
+}
+
+.celeblist_imagelist img {
+    width: 300px;
+    height: 400px;
+
+    margin: 10px;
+}
+
+.celeb_input_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.celeb_input_wrap span {
+    margin: 10px 0 0;
+}
+
+.celeb_input_wrap input {
+    width: 300px;
+    margin: 5px 0;
+}
+
+.celeb_btn_wrap1 {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.celeb_insert_btn {
+    display: inline-block;
+    width: 150px;
+}
+
+.celeb_insert_list_wrap {
+    /* position: absolute; */
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    margin: 10px 10px 10px;
+    background: rgba(148, 147, 147, 0.53);
+    text-align: center;
+    color: white;
+    height: 410px;
+}
+
+.celeb_insert_list_contents {
+    height: 320px;
+    overflow-y: auto;
+}
+
+.celeb_insert_list_wrap span {
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.celeb_insert_list_li {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin: 4px auto;
+    padding-bottom: 4px;
+    border-bottom: 0.5px solid #b6b6b6;
+    width: 90%;
+}
+
+.celeb_insert_list_li p {
+    margin-right: 10px;
+    text-overflow: ellipsis;
+}
+
+.celeb_insert_list_li input {
+    margin-right: 10px;
+}
+
+.celeb_btn_wrap2 {
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px 10px 10px;
+    align-items: flex-end;
+}
+
+.celeb_btn_wrap2 button {
+    height: 20px;
+    margin: 0 10px;
+}
+
+.celeb_infolist_container img{
+    width: 50px;
+}

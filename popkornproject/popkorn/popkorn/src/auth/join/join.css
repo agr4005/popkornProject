@@ -1,0 +1,160 @@
+.confirmemail {
+    font-family: 'TmoneyRoundWindExtraBold';
+    color: black;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.checkpw,
+.newpw {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding-left: 0px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-bottom: 2px solid;
+    border-color: gray;
+    font-size: 20px;
+    outline: none;
+    width: 250px;
+    margin-right: -30px;
+}
+
+.checkpw::placeholder,
+.newpw::placeholder {
+    color: #fe7cf3;
+}
+
+.nickname {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding-left: 0px;
+    padding-bottom: 5px;
+    border: 0px;
+    border-bottom: 2px solid;
+    border-color: gray;
+    font-size: 20px;
+    outline: none;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.pwvalid1,
+.pwvalid2,
+.pwvalid3,
+.pwvalid4 {
+    font-family: 'TmoneyRoundWindExtraBold';
+    width: 350px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.emnextstep {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+}
+
+.emprevstep {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+}
+
+.disableprevbtn {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+}
+
+.disablenextbtn {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, dimgray, #c8e1e7);
+}
+
+.processbtn {
+    margin: 0 auto;
+}
+
+.subguide {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #fe7cf3;
+}
+
+.certificationbtn {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.8vw;
+    text-decoration: underline;
+    color: gray
+}
+
+.certificationinput {
+    font-family: 'TmoneyRoundWindExtraBold';
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    border: 0px;
+    border-bottom: 2px solid;
+    border-color: gray;
+    font-size: 20px;
+    outline: none;
+    width: 300px;
+}
+
+.agreeinfo {
+    font-family: 'TmoneyRoundWindExtraBold';
+    color: #7de4ff;
+    font-size: 15px;
+}
+
+.nicknameinfo {
+    font-family: 'TmoneyRoundWindExtraBold';
+    width: 420px;
+    
+}
+.joincomp {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 0px;
+    border-radius: 25px;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+}

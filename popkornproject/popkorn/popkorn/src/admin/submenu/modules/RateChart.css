@@ -1,0 +1,39 @@
+.ratechart_wrap{
+   display: inline-block;
+   width: 300px;
+   height: auto;
+   opacity: 0.8;
+   color: #FE7CF3;
+   text-align: center;
+}
+
+.ratechart_header{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.ratechart_clock{
+   color: #7de4ff;
+   border-bottom: 1px solid;
+   margin: 10px 0;
+}
+
+.ratechart_table{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-columns: repeat(auto-fill);
+   font-size: 20px;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+
+.ratechart_table span{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.ratechart_table p{
+   color: #7de4ff;
+}

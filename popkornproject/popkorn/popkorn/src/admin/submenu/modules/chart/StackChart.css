@@ -1,0 +1,16 @@
+.stackchart_wrap{
+   position: relative;
+}
+
+.stackchart_header{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #FE7CF3;
+   border-bottom: 1px solid #7de4ff;
+}
+
+.stackchart_title{
+   color: #7de4ff
+}

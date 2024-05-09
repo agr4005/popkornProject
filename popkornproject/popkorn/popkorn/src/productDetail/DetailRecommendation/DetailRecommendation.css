@@ -1,0 +1,16 @@
+.titlehandler {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    border-bottom: 1px ridge rgb(213, 211, 211);
+}
+
+.recommendation {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.titlehover:hover {
+    color: gray;
+}

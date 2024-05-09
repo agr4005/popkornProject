@@ -1,0 +1,106 @@
+.snakegame_wrap{
+    width: 350px;
+    height: 550px;
+    padding: 7px 7px 0;
+}
+
+.snakegame_header{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #7de4ff;
+}
+
+.snakegame_header span{
+    color: #FE7CF3;
+}
+
+.snakegame_header p{
+    margin: 0 0 10px;
+    color: #7de4ff;
+}
+
+.table__row {
+    display: flex;
+  }
+  
+  .table__cell {
+    flex-grow: 1;
+    box-sizing: border-box;
+    margin: 1px;
+    background-color: rgb(29, 29, 29);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.38);
+  }
+  
+  .table__cell::after {
+    display: block;
+    content: "";
+    padding-bottom: 100%;
+  }
+  
+  .game.end .joint {
+    background-color: black;
+  }
+  
+  .joint {
+    background-color: #7de4ff;
+  }
+  
+  .fruit {
+    background-color: #FE7CF3;
+  }
+  
+  .description {
+    margin-top: 1em;
+    color: #7de4ff;
+  }
+
+  .description .button {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #FFF;
+    display: block;
+    float: right;
+  }
+
+  .rank_div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .xi-trophy, .xi-crown{
+    color: yellow;
+  }
+
+  .xi-crown.silver{
+    color: thistle;
+  }
+
+  .xi-crown.bronze{
+    color: tomato;
+  }
+
+  .rank_span{
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+  }
+
+  .rank_div table{
+    border: 1px solid yellow;
+  }
+
+  .rank_div th{
+    background: yellow;
+    color: #000;
+    width: 100px;
+  }
+
+  .rank_div tr{
+    color: #fff;
+  }

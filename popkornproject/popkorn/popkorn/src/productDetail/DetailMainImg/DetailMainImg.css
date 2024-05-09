@@ -1,0 +1,11 @@
+.mainimg>img {
+    width: 550px;
+    height: 650px;
+}
+
+.mainimg {
+    box-shadow: -22px -30px 6px 2px #b2ecfd;
+    ;
+    /* 왼쪽오른쪽, 위아래, 모서리, 크기 */
+    margin-top: 75px;
+}

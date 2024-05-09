@@ -1,0 +1,67 @@
+.mp_span{
+   font-family: 'TmoneyRoundWindExtraBold';
+   color: #7de3ff;
+   font-size: 26px;
+}
+
+.mcontent_grid_container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   margin: 40px 200px;
+   justify-content: center;
+   align-items: center;
+   row-gap: 30px;
+   column-gap: 55px; /* 열 사이의 간격 설정 */
+}
+
+.artistLogo{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mp_artistLogo_img{
+   position: absolute;
+   width: 240px;
+   height: 240px;
+   border-radius: 50%;
+   box-shadow: 4px 4px 3px gray;
+}
+
+.artistLogo span {
+   position: absolute;
+   bottom: 60px;
+   font-size: 24px;
+   color: #FE7CF3;
+   font-weight: bold;
+}
+
+.emptySlot{
+   background: #000;
+   width: 250px;
+   height: 320px;
+}
+
+
+@media screen and (max-width: 800px) {
+   .mcontent_grid_container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   }
+}
+
+@media screen and (max-width: 1300px) {
+   .mcontent_grid_container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   }
+}
+
+@media screen and (max-width: 1600px) {
+   .mcontent_grid_container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   }
+}

@@ -1,0 +1,16 @@
+.dashchart_wrap{
+   position: relative;
+}
+
+.dashchart_header{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #FE7CF3;
+   border-bottom: 1px solid #7de4ff;
+}
+
+.dashchart_title{
+   color: #7de4ff
+}

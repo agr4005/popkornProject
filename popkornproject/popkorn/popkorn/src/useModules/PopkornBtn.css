@@ -1,0 +1,34 @@
+.popkornButton1 {
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 1px solid #7de4ff;
+    color: #7de4ff;
+}
+
+.popkornButton1:hover {
+    background-color: #FE7CF3;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 0px;
+}
+
+.popkornButton2 {
+    background-color: #7de4ff;
+    border-radius: 10px;
+    border: 0px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+
+.popkornButton2:hover {
+    background-color: #FE7CF3;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}

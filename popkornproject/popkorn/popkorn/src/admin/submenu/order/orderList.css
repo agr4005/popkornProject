@@ -1,0 +1,341 @@
+
+.adminorderlistwhole {
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+.adminorderlistcontainer {
+  width: 90%;
+    border: 2px solid ;
+    border-radius: 15px;
+    height: 170px;
+    padding-left: 1%;
+    background-color: rgba(148, 147, 147, 0.53);
+    margin: 0 auto 4px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.orderlistwhole {
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+.adminorderdetailscontainer {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 2%;
+  max-height: 80%;
+  overflow-y: auto;
+  margin:auto;
+  min-width: 800px; 
+  height: auto;
+  max-height: 600px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.adminorderdetailscontainer::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.adminorderdetailscontainer::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 6px; 
+}
+
+.adminorderdetailscontainer::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.adminorderdetailscontainer::-webkit-scrollbar-button:vertical:start:decrement,
+.adminorderdetailscontainer::-webkit-scrollbar-button:vertical:start:increment {
+    display: block;
+    height: 10px;
+}
+
+.adminorderdetailscontainer::-webkit-scrollbar-button:vertical:end:decrement {
+    display: block;
+    width: 10px;
+}
+
+.orderlist1st {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminorderdetaildate {
+  width: 50%;
+}
+.adminorderbtn {
+  width: 50%;
+  text-align: right;
+  height: 50px;
+}
+
+.adminorderdetailcheck {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 5px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.adminorderdetailnumber {
+  font-size: 17px;
+  color: white;
+}
+
+.adminorderdetailnumber .adminordernum{
+  font-weight: bold;
+  color: #FE7CF3;
+}
+
+.adminorderdetailcheck:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+  color: #555;
+  transform: scale(1.05);
+}
+
+.adminorderdetailpcode {
+  width: 50%;
+  min-width: 150px; 
+  max-width: 300px; 
+  text-align: right;
+}
+.adminorderdetailpcode span{
+  width: 50%;
+  min-width: 150px; 
+  max-width: 300px; 
+  text-align: right;
+  color: #FE7CF3;
+}
+
+.orderlist2nd {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.adminorderdetailimg img {
+  width: 100%;
+  height: auto;
+}
+
+.adminorderdetailinfo {
+  display: flex;
+}
+
+.adminorderdetailproductinfo {
+  border: 1px gray solid;
+  border-radius: 15px;
+  width: 100%;
+  min-width: 200px; 
+  max-width: 600px;  
+  padding-left: 1%;
+  margin-top: 3%;
+}
+
+.admincategory_searchp{
+  width: 100%;
+  height: 100%;
+}
+
+
+.admincategory_search select{
+  width: 150px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 60px;
+  height: 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #8f8f8f8a;
+  border: 0px;
+  height: 30px;
+  margin-right: 2%;
+}
+
+.adminorderdetailservice {
+  border: 1px gray solid;
+  border-radius: 15px;
+  background-color: white;
+  width: 16%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+.orderpopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.popup-close-btn:hover {
+  color: black;
+}
+
+.termsheader {
+  font-size: 3vw;
+}
+
+.adminorderdetailimg {
+  width: 15%;
+  height: 10%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.adminorderdetailpname,
+.adminorderdetailalternative,
+.adminorderdetailcount {
+  width: 100%;
+}
+
+.adminorderdetailalternative {
+  font-size: 0.8vw;
+  color: #888;
+  margin: 3%;
+}
+
+.ordertotalprice {
+  text-align: right;
+  font-size: 130%;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+.orderbtn{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.refundbtn, .inquirementbtn {
+  width: 200px;
+  border: 0px;
+  border-radius: 2vw;
+  height: 3vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-size: 1vw;
+  font-weight: bold;
+  word-break: keep-all;
+}
+
+.moreviewbtn {
+  font-family: 'TmoneyRoundWindExtraBold';
+  border: 0px;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  cursor: pointer;
+  vertical-align: center;
+  font-size: 25px;
+  color: white
+}
+
+.moreviewbtn:hover {
+  background: white;
+  color: #7de4ff;
+  border: 2px solid #fbc2eb;
+  box-shadow: 0 0.5em 0.5em -0.4em #fe7cf3;
+  transition: 0.7s;
+
+}
+
+.moreviewdiv {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.orderlistno {
+  font-family: 'TmoneyRoundWindExtraBold';
+  width: 70%;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 23px;
+  color: #7de4ff;
+}
+
+.orderinfostatus {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.adminorderliststatus {
+  color: black;
+  font-weight: bold;
+}
+
+.ordernum_paging {
+  cursor: pointer;
+  color: white;
+}
+
+.keywordresult {
+  margin-left: 60px;
+  color: gainsboro;
+  font-weight: bold;
+}
+
+.focuskeyword {
+  color: #fe7cf3;
+}
+
+.adminOrderlist_container{
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  margin: 10px 10px 0px;
+  background: rgba(148, 147, 147, 0.53);
+  text-align: center;
+  color: white;
+}
+
+.adminOrderlist_header{
+  color: gainsboro;
+  font-size: 30px;
+  font-weight: bold;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.adminOrderlist_header span{
+  margin-left: 70px;
+}

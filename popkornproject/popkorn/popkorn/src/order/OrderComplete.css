@@ -1,0 +1,80 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.completeMain {
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3.79%;
+    padding-top: 11.36%;
+}
+
+.completeMain>h3 {
+    color: #FE7CF3;
+}
+
+.completeBox {
+    border: 1px solid rgb(194, 193, 193);
+    padding-top: 1.52%;
+    padding-bottom: 1.52%;
+    text-align: center;
+}
+
+
+.completeWindow {
+    border-top: 1px solid rgb(194, 193, 193);
+    border-bottom: 1px solid rgb(194, 193, 193);
+    padding-left: 1%;
+}
+
+.completeBox .xi-check-circle-o {
+    color: rgb(92, 255, 51);
+}
+
+.completeMap {
+    border-top: 2px solid gray;
+    border-bottom: 1px solid gray;
+    display: block;
+    padding-bottom: 0.76%;
+}
+
+.completeIndex {
+    padding-top: 0.76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.completeIndex>img {
+    width: 10%;
+    height: auto;
+}
+
+.alter {
+    font-size: 12px;
+    color: gray;
+}
+
+.completeIndex>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.completeIndex>div>span {
+    width: 100%;
+}
+
+.ordercompleteinfo {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #FE7CF3;
+}
+
+.ordercompleteinfo > span{
+    font-size: 0.8vw;
+    color: red;
+}

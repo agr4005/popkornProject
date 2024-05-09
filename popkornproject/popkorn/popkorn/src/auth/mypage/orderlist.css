@@ -1,0 +1,286 @@
+.orderlistwhole {
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+.orderlistcontainer {
+  border: 2px solid rgba(214, 212, 212, 0.5);
+  border-radius: 15px;
+  margin-top: 5%;
+  width: 90%;
+  height: auto;
+  padding: 2%;
+}
+
+.orderdetailscontainer::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.orderdetailscontainer::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 6px; 
+}
+
+.orderdetailscontainer::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:start:decrement,
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:start:increment {
+    display: block;
+    height: 10px;
+}
+
+.orderdetailscontainer::-webkit-scrollbar-button:vertical:end:decrement {
+    display: block;
+    width: 10px;
+}
+
+.orderdetailscontainer {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 2%;
+  max-height: 80%;
+  overflow-y: auto;
+  margin-top: 5%;
+  width: 70%;
+  min-width: 300px; 
+  max-width: 800px; 
+  height: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderlist1st {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+}
+
+.orderdetaildate {
+  width: 50%;
+}
+
+.orderdetailcheck {
+  width: 12%;
+  height: 3%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.orderdetailnumber {
+  font-size: 20px;
+  color: #000;
+}
+
+.orderdetailnumber span{
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #FE7CF3;
+}
+
+.orderdetailcheck:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+  color: #555;
+  transform: scale(1.05);
+}
+
+.orderdetailpcode {
+  width: 50%;
+  min-width: 150px; 
+  max-width: 300px; 
+  text-align: right;
+}
+.orderdetailpcode span{
+  width: 50%;
+  min-width: 150px; 
+  max-width: 300px; 
+  text-align: right;
+  color: #FE7CF3;
+}
+
+.orderlist2nd {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.orderdetailimg img {
+  width: 100%;
+  height: auto;
+}
+
+.orderdetailproductinfo {
+  width: 100%;
+  min-width: 200px; 
+  max-width: 600px;  
+  padding-left: 1%;
+  margin-top: 3%;
+}
+
+.productmapvalue {
+  margin-left: 5%;
+  min-width: 200px; 
+  max-width: 400px;  
+}
+
+.orderdetailinfo {
+  display: flex;
+  width: 100%;
+  min-width: 200px; 
+  max-width: 600px;  
+  border: 1px solid #888;;
+  border-radius: 2vw;
+  padding: 3%;
+}
+
+.orderlist3rd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orderdetailreturnrequest {
+  border: 1px gray solid;
+  border-radius: 15px;
+  background-color: white;
+  width: 16%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+.orderdetailservice {
+  border: 1px gray solid;
+  border-radius: 15px;
+  background-color: white;
+  width: 16%;
+  height: 40px;
+  margin-right: 2%;
+}
+
+.orderpopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.popup-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.popup-close-btn:hover {
+  color: black;
+}
+
+.termsheader {
+  font-size: 3vw;
+}
+
+.orderdetailimg {
+  width: 15%;
+  height: 10%;
+}
+
+.orderdetailpname,
+.orderdetailalternative,
+.orderdetailcount {
+  width: 100%;
+}
+
+.orderdetailalternative {
+  font-size: 0.8vw;
+  color: #888;
+  margin: 3%;
+}
+
+.ordertotalprice {
+  text-align: right;
+  font-size: 130%;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+.orderbtn{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.refundbtn, .purchaseconbtn {
+  width: 200px;
+  border: 0px;
+  border-radius: 2vw;
+  height: 3vw;
+  background-color: whitesmoke;
+  cursor: pointer;
+  font-size: 1vw;
+  font-weight: bold;
+  word-break: keep-all;
+}
+
+.moreviewbtn {
+  font-family: 'TmoneyRoundWindExtraBold';
+  border: 0px;
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  cursor: pointer;
+  vertical-align: center;
+  font-size: 25px;
+  color: white
+}
+
+.moreviewbtn:hover {
+  background: white;
+  color: #7de4ff;
+  border: 2px solid #fbc2eb;
+  box-shadow: 0 0.5em 0.5em -0.4em #fe7cf3;
+  transition: 0.7s;
+
+}
+
+.moreviewdiv {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.orderlistno {
+  font-family: 'TmoneyRoundWindExtraBold';
+  width: 70%;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 23px;
+  color: #7de4ff;
+}
+
+.orderinfostatus {
+  font-size: 22px;
+  font-weight: bold;
+}

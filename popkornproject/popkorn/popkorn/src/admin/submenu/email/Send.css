@@ -1,0 +1,140 @@
+.emailcontent-Textarea {
+  width: 90%;
+  height: 63%;
+  outline: none;
+  resize: none;
+  margin-left: 45px;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.emailTitle-Input,
+.Recipient-Input {
+  vertical-align: middle;
+  width: 70%;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(233, 233, 233, 0.5);
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.emailTitle-Input {
+  margin-left: 68px;
+}
+
+.Recipient-Input:read-only {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.emailTitle-Input::placeholder,
+.Recipient-Input::placeholder {
+  text-align: center;
+}
+
+.stateEmail {
+  width: 95%;
+  border: 1px solid #b6b6b6;
+  height: 95%;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: rgba(148, 147, 147, 0.53);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.EmailHeader {
+  width: 100%;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.EmailHeader h3 {
+  padding-left: 25px;
+}
+
+.recipientemail,
+.emailtitle {
+  margin-left: 30px;
+}
+
+.EmailHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sendemailbtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 9px;
+  border: 0px;
+  color: white;
+  background: #9dc8c8;
+  margin-left: 300px;
+  cursor: pointer;
+}
+
+.custom-file-input {
+  border: 2px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #9dc8c8;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.custom-file-input:hover {
+  background-color: #9dc8c8;
+}
+
+.custom-file-input:active {
+  background-color: #9dc8c8;
+}
+
+.file-name {
+  display: flex;
+  border: 1px solid;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-style: italic;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fileinputflex {
+  display: flex;
+}
+
+.fileremovebtn {
+  margin-left: 5px;
+  border: 0px;
+  color: red;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.allusercheck {
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+
+.reservetime {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}

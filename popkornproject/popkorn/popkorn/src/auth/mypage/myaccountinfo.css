@@ -1,0 +1,108 @@
+.my-account-info .account-header {
+  font-size: 30px;
+  text-align: left;
+  color: #7de4ff;
+}
+
+.account-header {
+  width: 700px;
+  border-bottom: 1.5px solid rgb(216, 214, 214);
+  font-size: 30px;
+  color: black;
+  margin-top: -13px;
+  padding-bottom: 5px;
+}
+
+.editemail,
+.editnickname {
+  padding: 8px 20px;
+  margin-bottom: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 0px;
+  border-bottom: 1.5px solid rgb(216, 214, 214);
+  font-size: 20px;
+  width: 250px;
+  outline: none;
+  margin-right: -30px;
+}
+
+.toggleupdate {
+  border: none;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 20px;
+  margin: 5px;
+  background: linear-gradient(20deg, #fe7cf3, #7de4ff);
+  color: white;
+  padding: 9px 15px;
+}
+
+.toggleupdate:hover {
+  background-color: #0056b3;
+}
+
+.toggleupdate:focus {
+  outline: none;
+}
+
+.accountterms {
+  color: #fe7cf3;
+  cursor: pointer;
+  width: 350px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.toggleupdate {
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.accountemail,
+.accountnickname {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #fe7cf3;
+}
+
+.accountemail span,
+.accountnickname span {
+  color: #000;
+  font-size: 18px;
+}
+
+
+.termspopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.termspopup {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.termspopup button {
+  margin-top: 10px;
+}
+
+.popup-close-btn:hover {
+  color: black;
+}
+
+.termsheader {
+  font-size: 25px;
+}

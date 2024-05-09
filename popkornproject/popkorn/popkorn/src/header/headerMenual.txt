@@ -1,0 +1,8 @@
+1. 최 상위 헤더 컴포넌트는 Header.js
+2. 기본 웹브라우저 가로 크기에 대해서 반응형으로 완성 (800px 이하일 때 Logo 컴포넌트의 main_logo 이미지만 fixed 로 보이게 됨)
+3. scrollY == 0 일때 <Header/> 는 브라우저 최 상단
+4. 하위 Header 컴포넌트의 하위에는 Menulist 컴포넌트, Logo 컴포넌트, Icons 컴포넌트가 있음
+5. Menulist 컴포넌트와 Icons 컴포넌트는 Header 컴포넌트의 width 800px 이하일 때는 Logo 컴포넌트에 합쳐지듯이 사라지는 효과가 있었으면 좋겠음
+6. Logo 컴포넌트 하위에 logo를 구성하는 7개의 image가 있는데 이 이미지들 또한 Header 컴포넌트의 width 800px 이하일 때 7개중 가운데 main-logo이미지에 합쳐지듯이 사라지는 효과가 있었으면 좋겠음
+7. Menulist는 Header컴포넌트 width의 33%를 차지하고있으며 Menulist 컴포넌트에는 <span>CELEB<span/><span>PRODUCT<span/><span>EVENT<span/> 가 출력되며 헤더 메뉴 처럼 각각 조금씩 떨어져있음
+8. Icons 컴포넌트에는 <i className="xi-search"></i><i className='xi-user-o'></i><i className='xi-cart-o'></i><i className='xi-star-o'></i> 가 출력되며 헤더의 우측 아이콘들 처럼 각각 조금씩 떨어져 있음

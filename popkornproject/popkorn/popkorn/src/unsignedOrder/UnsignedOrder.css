@@ -1,0 +1,56 @@
+.unsignedO_wrap{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.emaildetail, .orderpwdetail {
+    margin-right: 50px;
+}
+
+.orderpwdetail {
+    font-family: 'TmoneyRoundWindExtraBold';
+    margin-top: 30px;
+    padding-left: 50px;
+    height: 70px;
+}
+
+
+.resetpw {
+    font-family: 'TmoneyRoundWindExtraBold';
+    border: none;
+    background-color: white;
+    color: #7de4ff;
+    margin-top: 40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.findorderbtn {
+    display: flex;
+    justify-content: space-around
+}
+
+.findpwroute , .findnumroute {
+    font-family: 'TmoneyRoundWindExtraBold';
+    width: 30%;
+    height: 20vh;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+}
+.findnumroute {
+    background: linear-gradient(20deg, rgba(125, 228, 255, 0.7), rgba(254, 124, 243, 0.7));
+}
+
+.findpwroute {
+    background: linear-gradient(20deg, rgba(254, 124, 243, 0.7), rgba(125, 228, 255, 0.7));
+}
+
+.mailcodesend {
+    border: 0px;
+    background: white;
+    font-size: 22px;
+}

@@ -1,0 +1,123 @@
+.productlist_wrap,.loginuser_wrap,.adminlist_wrap{
+   width: 100%;
+   height: 100%;
+}
+
+.productlist_container{
+   border: 1px solid #b6b6b6;
+   border-radius: 5px;
+   margin: 10px 10px 0px;
+   background: rgba(148, 147, 147, 0.53);
+   text-align: center;
+   color: white;
+}
+
+.productlist_header{
+   /* display: inline-block; */
+   color: gainsboro;
+   font-size: 30px;
+   font-weight: bold;
+   height: 100px;
+   display: flex;
+   align-items: center;
+}
+
+.productlist_header span{
+   margin-left: 70px;
+}
+
+.productlist_statistical{
+   display: flex;
+   width: 90%;
+   margin: auto;
+   justify-content: space-around;
+}
+
+.productlist_statistical div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   height: 100px;
+   border-radius: 20px;
+   margin: 20px;
+   flex-direction: column;
+   border: 1px solid #7de4ff;
+   background: #7de5ff2c;
+   width: 25%;
+   margin-top: 30px;
+   border-radius: 5px;
+   padding-left: 5px;
+}
+
+.productlist_statistical div span {
+   font-size: 20px;
+   font-weight: bold;
+   margin: 5px;
+}
+
+.productlist_statistical div:nth-child(1){
+   /* background-color: #003a528c; */
+   color: gainsboro
+}
+
+.productlist_statistical div:nth-child(2){
+   /* border: 3px solid #70a074; */
+   background-color: #6fce4369;
+   border: 1px solid #6be732ea;
+   color: gainsboro
+}
+
+.productlist_statistical div:nth-child(3){
+   /* border: 3px solid #c70404; */
+   background-color: #f356976c;
+   border: 1px solid #ec40b3;
+   color: gainsboro
+}
+
+.productlist_statistical div:nth-child(4){
+   /* border: 3px solid #c70404; */
+   background-color: #131f9c4b;
+   border: 1px solid #2c3ad1e1;
+   color: gainsboro
+}
+
+.admincategory_wrap select{
+   width: 150px;
+   padding-left: 10px;
+   margin-top: 10px;
+   height: 20px;
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   background: #8f8f8f8a;
+   border: 0px;
+   color: #fff;
+}
+
+.admincategory_wrap>div:first-child{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.admincategory_wrap{
+   border-left: 1px solid #b6b6b6;
+   border-right: 1px solid #b6b6b6;
+   margin: 0 10px;
+   background: rgba(148, 147, 147, 0.53);
+   color: white;
+}
+
+.status.album{
+   background: #6fce4369;
+   color: #ffffffe3;
+}
+
+.status.photo{
+   background: #131f9c4b;
+   color: #ffffffe3;
+}
+
+.status.goods{
+   background: #f356976c;
+   color: #ffffffe3;
+}

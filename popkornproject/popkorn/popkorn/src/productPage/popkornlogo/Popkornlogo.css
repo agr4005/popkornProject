@@ -1,0 +1,200 @@
+.product_back_logo {
+    position: fixed;
+    scale: 0.6;
+    left: 0;
+    top: 320px;
+    z-index: -1;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+.product_back_logos.poplogos1 {
+    position: fixed;
+    scale: 0.03;
+    left: 0;
+    top: 320px;
+    animation: poplogos1 infinite 6s linear;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+.product_back_logos.poplogos2 {
+    position: fixed;
+    opacity: 0.8;
+    scale: 0.03;
+    left: 0;
+    top: 320px;
+    animation: poplogos2 infinite 6s linear;
+    z-index: -2;
+}
+
+@keyframes poplogos1 {
+    0% {
+        transform: translate(0%, 0%);
+    }
+
+    5% {
+        transform: translate(-100%, -200%);
+    }
+
+    10% {
+        transform: translate(-200%, -400%);
+    }
+
+    15% {
+        transform: translate(-300%, -600%);
+    }
+
+    20% {
+        transform: translate(-400%, -800%);
+    }
+
+    25% {
+        transform: translate(-500%, -1000%);
+    }
+
+    30% {
+        transform: translate(-600%, -1200%);
+    }
+
+    35% {
+        transform: translate(-700%, -1300%);
+    }
+
+    40% {
+        transform: translate(-800%, -1400%);
+    }
+
+    45% {
+        transform: translate(-900%, -1450%);
+    }
+
+    50% {
+        transform: translate(-1000%, -1500%);
+    }
+
+    55% {
+        transform: translate(-1100%, -1450%);
+    }
+
+    60% {
+        transform: translate(-1200%, -1400%);
+    }
+
+    65% {
+        transform: translate(-1300%, -1300%);
+    }
+
+    70% {
+        transform: translate(-1400%, -1200%);
+    }
+
+    75% {
+        transform: translate(-1500%, -1000%);
+    }
+
+    80% {
+        transform: translate(-1600%, -800%);
+    }
+
+    85% {
+        transform: translate(-1700%, -600%);
+    }
+
+    90% {
+        transform: translate(-1800%, -400%);
+    }
+
+    95% {
+        transform: translate(-1900%, -200%);
+    }
+
+    100% {
+        transform: translate(-2000%, -0%);
+    }
+}
+
+@keyframes poplogos2 {
+    0% {
+        transform: translate(0%, 0%);
+    }
+
+    5% {
+        transform: translate(100%, -200%);
+    }
+
+    10% {
+        transform: translate(200%, -400%);
+    }
+
+    15% {
+        transform: translate(300%, -600%);
+    }
+
+    20% {
+        transform: translate(400%, -800%);
+    }
+
+    25% {
+        transform: translate(500%, -1000%);
+    }
+
+    30% {
+        transform: translate(600%, -1200%);
+    }
+
+    35% {
+        transform: translate(700%, -1300%);
+    }
+
+    40% {
+        transform: translate(800%, -1400%);
+    }
+
+    45% {
+        transform: translate(900%, -1450%);
+    }
+
+    50% {
+        transform: translate(1000%, -1500%);
+    }
+
+    55% {
+        transform: translate(1100%, -1450%);
+    }
+
+    60% {
+        transform: translate(1200%, -1400%);
+    }
+
+    65% {
+        transform: translate(1300%, -1300%);
+    }
+
+    70% {
+        transform: translate(1400%, -1200%);
+    }
+
+    75% {
+        transform: translate(1500%, -1000%);
+    }
+
+    80% {
+        transform: translate(1600%, -800%);
+    }
+
+    85% {
+        transform: translate(1700%, -600%);
+    }
+
+    90% {
+        transform: translate(1800%, -400%);
+    }
+
+    95% {
+        transform: translate(1900%, -200%);
+    }
+
+    100% {
+        transform: translate(2000%, -0%);
+    }
+}

@@ -1,0 +1,12 @@
+.priceoutput_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.priceoutput_check{
+    color: #FE7CF3;
+    font-size: 14px;
+    cursor: pointer;
+}

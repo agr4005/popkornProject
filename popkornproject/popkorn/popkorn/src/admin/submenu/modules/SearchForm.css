@@ -1,0 +1,67 @@
+.searchform_wrap{
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   width: 90%;
+   padding-top: 10px;
+}
+
+.searchform_wrap div{
+   display: flex;
+   width: 100%;
+   margin: 0;
+   align-items: center;
+}
+
+.searchform_wrap div button{
+   cursor: pointer;
+}
+
+.searchform_input{
+   width: 300px;
+   height: 30px;
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   margin: 10px 0 10px;
+   background: #8f8f8f8a;
+   border: 0px;
+   color: #fff;
+   outline: none;
+}
+
+.searchform_input::placeholder{
+   padding-left: 20px;
+   color: gainsboro;
+}
+
+.searchform_btn{
+   width: 32px;
+   height: 32px;
+   margin: 10px 0 10px;
+   background: #8f8f8f8a;
+   border: 0px;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+}
+
+.searchform_btn i{
+   color: #63d8e0e3;
+}
+
+.searchform_add_btn{
+   border: 0px;
+   border-radius: 6px;
+   /* margin-right: 50px; */
+   background: #4faeb4e3;
+   width: 90px;
+   height: 31px;
+   color: #fff;
+}
+
+.searchform_add_btn:hover{
+   background: #429399e3;
+}
+
+.searchform_btn i:hover{
+   color: #4ca9afe3;
+}

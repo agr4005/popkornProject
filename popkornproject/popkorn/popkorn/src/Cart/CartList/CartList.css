@@ -1,0 +1,25 @@
+.cartListMain {
+    display: flex;
+    gap: 130px;
+    padding-top: 10px;
+}
+
+.cartListMain>img {
+    width: 90px;
+    height: 90px;
+}
+
+.cartListMain>span {
+    width: 170px;
+}
+
+.cartListMain>.productnameclss {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productnameclss>span:nth-child(2) {
+    font-size: 12px;
+    color: gray;
+}

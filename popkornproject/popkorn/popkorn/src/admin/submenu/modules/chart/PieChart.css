@@ -1,0 +1,16 @@
+.piechart_wrap{
+   position: relative;
+}
+
+.piechart_header{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #FE7CF3;
+   border-bottom: 1px solid #7de4ff;
+}
+
+.piechart_title{
+   color: #7de4ff
+}

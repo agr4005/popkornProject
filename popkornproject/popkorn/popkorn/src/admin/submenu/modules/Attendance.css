@@ -1,0 +1,28 @@
+.attendance_header{
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #FE7CF3;
+   width: 300px;
+}
+
+.attendance_qrwrap{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 10px 60px 30px;
+}
+
+.attendance_qrwrap span{
+   margin-bottom: 20px;
+}
+
+.attendance_qrwrap span:first-child{
+   color: #FFF;
+}
+
+.attendance_qrwrap span:nth-child(2){
+   font-weight: bold;
+}

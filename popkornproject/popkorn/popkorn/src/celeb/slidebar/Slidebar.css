@@ -1,0 +1,34 @@
+ul,
+li {
+    list-style: none;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.itemname {
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+    margin-top: 6px;
+}
+
+.itemLi {
+    width: 200px;
+    height: 100%;
+    padding: 0 25px;
+    margin: 20px 0;
+    display: flex;
+    width: auto !important;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}

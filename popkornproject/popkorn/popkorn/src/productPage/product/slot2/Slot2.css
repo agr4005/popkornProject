@@ -1,0 +1,45 @@
+.slot2_wrap{
+    position: relative;
+    /* background-color: #000; */
+    width: 250px;
+    height: 320px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 3px gray;
+    border-radius: 30px;
+    overflow: hidden;
+    transform: translateY(20%); /* 시작 위치 설정 */
+    transition: opacity 0.5s ease, transform 0.2s ease-in-out; /* 트랜지션 설정 */
+    opacity: 0;
+ }
+ 
+ .slot2_span{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    transition: transform 0.2s ease-in-out; /* 트랜지션 설정 */
+    color: black;
+ }
+ 
+ .slot2_span>span{
+    display: block;
+    padding: 4px 10px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 17px;
+ }
+ 
+ .slot2_img{
+    position: absolute;
+    width: 100%;
+    max-height: 250px;
+    cursor: pointer;
+ }
+ 
+ .slot2_wrap.active {
+    opacity: 1;
+    transform: translateY(0); /* 목표 위치 설정 */
+  }
+ 
