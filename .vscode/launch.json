@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PopkornBackApplication<popkorn-back>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.teamstatic.popkornback.PopkornBackApplication",
+      "projectName": "popkorn-back",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
