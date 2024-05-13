@@ -31,4 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
-src/main/**/config/*.java
+
+**/config/PopkornConfig.java

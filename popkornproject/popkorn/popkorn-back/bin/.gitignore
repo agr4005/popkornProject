@@ -31,5 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-src/main/**/RegisterMail.java
-src/main/**/PopkornConfig.java
