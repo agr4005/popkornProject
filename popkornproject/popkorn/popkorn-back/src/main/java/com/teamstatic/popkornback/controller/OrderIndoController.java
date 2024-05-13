@@ -87,7 +87,6 @@ public class OrderIndoController {
 
     @GetMapping("/searchRefundlist")
     public PageResultDTO<OrderinfoDTO, Orderinfo> searchRefundlist(String searchType, String keyword, int page) {
-        System.out.println("Search Type: " + searchType + ", Keyword: " + keyword + ", Page: " + page);
         PageRequestDTO requestDTO = PageRequestDTO.builder()
                 .page(page)
                 .size(5)
@@ -108,7 +107,6 @@ public class OrderIndoController {
 
     @GetMapping("/searchLegacy")
     public PageResultDTO<OrderinfoDTO, Orderinfo> searchLegacy(String searchType, String keyword, int page) {
-        System.out.println("Search Type: " + searchType + ", Keyword: " + keyword + ", Page: " + page);
         PageRequestDTO requestDTO = PageRequestDTO.builder()
                 .page(page)
                 .size(5)

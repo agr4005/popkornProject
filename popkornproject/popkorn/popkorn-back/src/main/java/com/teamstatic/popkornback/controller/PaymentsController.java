@@ -112,7 +112,6 @@ public class PaymentsController {
    
    public boolean refund(@RequestBody Orderinfo orderinfo) throws IamportResponseException, IOException {
 
-      System.out.println(orderinfo);
       
 
       if (oService.findByImpUid(orderinfo.getImpUid()).size() > 0) {

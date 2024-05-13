@@ -85,8 +85,6 @@ public class UserController {
     @GetMapping("/searchlist")
     public PageResultDTO<UserDTO, User> searchlist(String keyword, int page) {
 
-        System.out.println("***********" + keyword);
-
         PageRequestDTO requestDTO = PageRequestDTO.builder()
                 .page(page)
                 .size(20)
@@ -109,7 +107,6 @@ public class UserController {
 
     @GetMapping("/selectone")
     public User selectone(@RequestParam String id) {
-        System.out.println("****" + id);
         User user = uservice.findByUserId(id);
 
         if (user != null) {
@@ -121,9 +118,7 @@ public class UserController {
 
     @GetMapping("/emailcheck")
     public String emailcheck(@RequestParam String emailinput) {
-        System.out.println("****" + emailinput);
         User user = uservice.findByUserId(emailinput);
-        System.out.println("///////////////////////////" + user);
 
         if (user != null) {
             return "success";

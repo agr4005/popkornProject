@@ -108,7 +108,6 @@ public class QnaController {
             if (updatedComment == null) {
                 throw new Exception("Update failed");
             }
-            System.out.println("수정된 댓글"+updatedComment);
             return updatedComment;
         } catch (Exception e) {
             System.out.println("Error updating comment: " + e.getMessage());
